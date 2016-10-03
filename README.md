@@ -1,6 +1,14 @@
 # leetcode_cpp11
 
-## map/unordered_map
+## Good Artists Copy; Great Artists Steal.
+Well, due to the fact that my brain is like a sieve, I will leave the source of my steal for my future self.
+
+## c++ language
+I pick up my c++ skills by watch this video: https://app.pluralsight.com/library/courses/accelerated-introduction-cpp/table-of-contents
+
+The following sections are language features I learned through coding. 
+
+### map/unordered_map
 If the value of a map/unordered_map is a container. It's better let operator[] to initiate this container
 ```cpp
 unordered_map<int, unordered_set<int>> mymap;
@@ -9,7 +17,7 @@ unordered_map<int, unordered_set<int>> mymap;
 mymap[1].insert(2); // {2}
 ```
 
-## map iterator v.s. map value
+### map iterator v.s. map value
 iterators are like pointers. You have to use iterator->first to access the data
 ```cpp
 unordered_map<int, unordered_set<int>> mymap;
