@@ -9,7 +9,6 @@
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
-        if(head==NULL) return NULL;
         ListNode new_head(0);
         while(head){
             ListNode * old = new_head.next;
