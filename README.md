@@ -31,3 +31,14 @@ it->second.insert(6); // {2, 5, 6}
 cout << it->first << endl; // 1
 cout << it->second.size() << endl; // 3
 ```
+
+### precedence: arithmetics > bitwise shift > relational > bitwise AND/XOR/OR > logical
+    191. Number of 1 Bits
+
+http://en.cppreference.com/w/cpp/language/operator_precedence
+```cpp
+n = n & 0x33333333 + (n>>2) & 0x33333333;
+// equivalent to
+n = n & (0x33333333 + (n>>2)) & 0x33333333;
+// so use bitwise operators with caution
+```
