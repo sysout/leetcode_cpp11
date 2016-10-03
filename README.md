@@ -1,4 +1,4 @@
-# leetcode_cpp11
+# leetcode in c++11
 
 ## Good Artists Copy; Great Artists Steal.
 Well, due to the fact that my brain is like a sieve, I will leave the source of my steal for my future self.
