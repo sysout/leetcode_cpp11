@@ -1,7 +1,7 @@
 # leetcode_cpp11
 
 ## map/unordered_map
-If the value of a map/unordered_map is a container. It's better use let operator[] to initiate this container
+If the value of a map/unordered_map is a container. It's better let operator[] to initiate this container
 ```cpp
 unordered_map<int, unordered_set<int>> mymap;
 // you don't have to check whether mymap[1] exist or not, 
