@@ -42,3 +42,6 @@ n = n & 0x33333333 + (n>>2) & 0x33333333;
 n = n & (0x33333333 + (n>>2)) & 0x33333333;
 // so use bitwise operators with caution
 ```
+
+### Array-to-pointer decay
+http://en.cppreference.com/w/cpp/language/array
