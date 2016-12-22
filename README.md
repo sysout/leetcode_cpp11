@@ -45,3 +45,7 @@ n = n & (0x33333333 + (n>>2)) & 0x33333333;
 
 ### Array-to-pointer decay
 http://en.cppreference.com/w/cpp/language/array
+
+
+### C++ Template Classes and Friend Function Details, as well as ADL
+http://web.mst.edu/~nmjxv3/articles/templates.html
